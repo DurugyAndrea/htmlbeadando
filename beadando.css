@@ -160,8 +160,8 @@ footer {
 .gomb {
     cursor:pointer;
     margin: 20px;
-    width: 200px; /* Set button width */
-    height: 200px; /* Set button height */
+    width: 200px;
+    height: 200px;
     background-color: #070015;
     border: #fe0035 solid 3px;
     color: #e3cef4;
