@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Durugy Andrea">
+    <meta name="description" content="Game of the Year database">
+    <title>Game of the year</title>
+    <link rel="stylesheet" href="../beadando.css">
+    <link rel="icon" href="../logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <p class="announcement"><a href="../voting/voting.html">Live show show on december 12th - Vote now!</a></p>
+    <header>
+        <img class="logo" src="../logo.svg" alt="logo">
+        <div class="header1">
+            <p class="ph">Game</p>
+            <p class="phsub">of the</p>
+            <p class="ph">Year</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a  href="../archive/archive.html">Archive</a></li>
+            <li><a href="../2024/2024.html">2024</a></li>
+            <li><a class="active" href="#">Voting</a></li>
+        </ul>
+    </nav>
+    <section class="sectionv">
+        <form action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php" method="post" id="myform" novalidate>
+            <h2>Voting form</h2>
+            <br>
+            <label for="name">First Name: </label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="surn">Last Name: </label> 
+            <input type="text" name="surn" id="surn">
+            <br>
+            <label for="birth">Date of birth: </label> 
+            <input type="date" name="birth" id="birth" >
+            <br>
+            <label for="email">E-mail Login: </label> 
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">Login Password: </label> 
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="list">Game of the year: </label>
+            <select name="list" id="list" size="1">
+                <option>Astro bot</option>
+                <option>Balatro</option>
+                <option>Black Myth Wukong</option>
+                <option>Elden Ring Shadow of the Erdtree</option>
+                <option>Final Fantasy VII Rebirth</option>
+                <option>Metaphor: Refantazio</option>
+            </select>
+            <br>
+            <label class="notif" for="check">I want to receive notifications about current news from Game of the Year</label>
+            <input type="checkbox" name="check" id="check" checked>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="Reset">
+        </form>
+        <div class="img1">
+        <img src="thegameawards.svg" alt="thegameawards">
+        <img src="activision.svg" alt="activision">
+        <img src="amd.svg" alt="amd">
+        <img src="ea.svg" alt="ea">
+        <img src="epicgames.svg" alt="epicgames">
+        <img src="kojimaproductions.svg" alt="kojimaproductions">
+        <img src="microsoft.svg" alt="microsoft"></div>
+        <div class="img2">
+        <img src="nintendo.svg" alt="nintendo">
+        <img src="riotgames.svg" alt="riotgames">
+        <img src="rockstargames.svg" alt="rockstargames">
+        <img src="sony.svg" alt="sony">
+        <img src="tencent.svg" alt="tencent">
+        <img src="ubisoft.svg" alt="ubisoft">
+        <img src="valve.svg" alt="valve"></div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Game of the Year Awards</p>
+    </footer>
+
+</body>
+
+</html>
+
+
