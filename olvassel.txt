@@ -1,0 +1,24 @@
+Oldal készítője: 
+Durugy Andrea
+
+URL cím:
+https://durugyandrea.github.io/htmlbeadando/
+
+Téma:
+A weboldal témája az év játéka díj. 
+Általános tudnivaló mellett meg lehet tekinteni az elmúlt pár év nyerteseit illetve jelöltjeit rövid leírásokkal 
+kiegészítve. 
+Emellett az idei jelöltekre is lehet szavazni.
+
+JS kód: 
+A saját js kód az archive.html és a 2024.html oldalakon van felhasználva.
+Az archive oldalon gombnyomásra tudja a weboldal változtatni a nyertes képét és leírását és a jquery slider 
+tartalmát dinamikusan frissíteni az adott évnek megfelelően (minden képhez tartozik rövid leírás, vagyis a 
+jquery slider lapozásánál a galéria alatt található paragrafus tartalma is változik).
+A 2024 című oldalon csak a paragrafus frissítés megy végbe a slider közepén található képnek megfelelően.
+Az eredeti ötlethez chatgpt-t használtam amit utána átírtam és bővítettem ahhoz, hogy kompatibilis legyen az én
+elképzeléseimmel a weboldal működéséről.
+
+Font típus:
+orbitron-medium.ttf: header, .announcement (lap tetején levő kiírás), nav, h2, footer, .gomb, form
+public-sans.light.ttf: body
