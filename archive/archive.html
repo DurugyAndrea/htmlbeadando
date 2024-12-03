@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Durugy Andrea">
+      <meta name="description" content="Game of the Year database">
+      <title>Game of the Year</title>
+      <link rel="stylesheet" href="../beadando.css">
+      <link rel="icon" href="../logo.jpg" type="image/x-icon">
+      <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+      <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+   </head>
+   <body>
+      <p class="announcement"><a href="../voting/voting.html">Live show on december 12th - Vote now!</a></p>
+      <header>
+         <img class="logo" src="../logo.svg" alt="logo">
+         <div class="header1">
+            <p class="ph">Game</p>
+            <p class="phsub">of the</p>
+            <p class="ph">Year</p>
+         </div>
+      </header>
+      <nav>
+         <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="active" href="#">Archive</a></li>
+            <li><a href="../2024/2024.html">2024</a></li>
+            <li><a href="../voting/voting.html">Voting</a></li>
+         </ul>
+      </nav>
+      <section>
+         <div class="arc">
+            <button id="gombA" class="gomb" data-year="2023">2023</button>
+            <button id="gombB" class="gomb" data-year="2022">2022</button>
+            <button id="gombC" class="gomb" data-year="2021">2021</button>
+            <button id="gombD" class="gomb" data-year="2020">2020</button>
+         </div>
+         <h2 class="arch">The Winner</h2>
+         <article class="winner">
+            <figure>
+               <img id="winnerImage" src="2023/2023_1.jpg" alt="2023 Winner">
+            </figure>
+            <p id="winnerText" class="winnerp" aria-live="polite">2023 Winner description.</p>
+         </article>
+         <h2 class="arch">Other Nominees</h2>
+         <div class="slider-container">
+            <div class="slider"></div>
+         </div>
+         <div class="paragraphs"></div>
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      </section>
+      <footer>
+         <p>&copy; 2024 Game of the Year Awards</p>
+      </footer>
+      <script src="archive.js"></script>
+   </body>
+</html>
